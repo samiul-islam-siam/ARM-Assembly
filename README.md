@@ -8,34 +8,72 @@ Make sure the following tools are installed before getting started:
 - **Hardware:** No hardware needed!
 - **Operating System:** Windows 10 or 11
 
-## ⚙️ Running a program using simulator
+## ⚙️ Running a Program Using the Simulator
 
-1. Go to Project → New $\mu$Vision Project. Name your project and then **Save**.
+1. Open **Keil μVision** and go to **Project → New μVision Project**.  
+   Enter a project name and click **Save**.
 
-2. From the Select Device for Target ‘Target 1’ window, expand ARM → ARM Cortex M4 and then select ARMCM4.
+2. In the **Select Device for Target 'Target 1'** window:
+   - Expand **ARM → ARM Cortex-M4**
+   - Select **ARMCM4**
+   - Click **OK**
 
-3. Go to “Manage Run-Time Environment” window, expand CMSIS and select CORE and then expand Device and then select Startup (C Startup).
+3. In the **Manage Run-Time Environment** window:
+   - Expand **CMSIS** and select **CORE**
+   - Expand **Device** and select **Startup (C Startup)**
+   - Click **OK**
 
-4. Then from the left sidebar titled “Project”, right click on Source Group 1, and then press “Add new item to Group ‘Source Group 1’”.
+4. From the left sidebar (**Project** panel):
+   - Right-click **Source Group 1**
+   - Select **Add New Item to Group 'Source Group 1'**
 
-5. Select Asm File (.s) from the type selection menu and name it.
+5. Choose **Asm File (.s)** from the list, give the file a name, and click **Add**.
 
-6. Now you can see the editor where you would be able to write assembly programs.
+6. You can now write your ARM assembly code in the editor.
 
-7. Before running, go to Project → **Options for Target 'Target_1'** for configuring the options or use **Alt+F7**.
+7. Before running the program, open the target configuration window:
+   - Go to **Project → Options for Target 'Target 1'**
+   - Or press **Alt + F7**
 
-8. Now go to the “Linker” tab and then from the Scatter File dropdown, choose “.\RTE\Device\ARMCM4\ARMCM4_ac6.sct”.
+8. Open the **Linker** tab and select the scatter file:
 
-9. Then from the “Debug” tab, make sure you have selected the “Use Simulator” checkbox.
+   ```text
+   .\RTE\Device\ARMCM4\ARMCM4_ac6.sct
+   ```
 
-10. Now, just simply save by pressing Ctrl + S, and then compile with the build/rebuild button.
+9. Open the **Debug** tab and make sure **Use Simulator** is enabled.
 
-11. Then you can start the debugger by clicking on the Start/Stop Debug Session button.
+10. Save the project using **Ctrl + S** and build it using the **Build/Rebuild** button.
 
-12. If the build process was successful (no error in the .s file), the debug session will start. 
+11. Start debugging by clicking **Start/Stop Debug Session**.
 
-13. You can now run the code and check the Watch Windows, Memory Windows, Serial Windows according your need.
+12. If the build completes successfully (without errors in the `.s` file), the debugger will launch.
+
+13. You can now run the program and inspect:
+   - Watch Window
+   - Memory Window
+   - Registers
+   - Serial Windows
+   - Other debugging tools as needed
+
+---
+
+## 📂 Project Structure
+
+```text
+├── o2_Labx/
+|   ├── Lab Manual x.pdf
+│   ├── example1.s
+│   ├── example2.s
+│   └── ...
+├── README.md
+```
+
+---
 
 ## 📄 License
+
+This project is open-source and available for educational and personal use.  
+Feel free to use, modify, and distribute it as needed.
 
 This project is open-source. Feel free to use and modify it as needed.
