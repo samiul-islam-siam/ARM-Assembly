@@ -74,5 +74,4 @@ Make sure the following tools are installed before getting started:
 ## 📄 License
 
 This project is open-source and available for educational and personal use.  
-
-This project is open-source. Feel free to use, modify, and distribute it as needed.
+Feel free to use, modify, and distribute it as needed.
