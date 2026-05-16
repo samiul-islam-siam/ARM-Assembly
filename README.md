@@ -4,7 +4,7 @@
 
 Make sure the following tools are installed before getting started:
 
-- Download MDK-Arm: [Keil $\mu$Vision](https://www.keil.com/download/product/)
+- Download MDK-Arm: [Keil μVision](https://www.keil.com/download/product/)
 - **Hardware:** No hardware needed!
 - **Operating System:** Windows 10 or 11
 
