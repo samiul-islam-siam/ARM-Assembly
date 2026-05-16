@@ -56,12 +56,10 @@ Make sure the following tools are installed before getting started:
    - Serial Windows
    - Other debugging tools as needed
 
----
-
 ## 📂 Project Structure
 
 ```text
-├── o2_Labx/
+├── 02_Labx/
 |   ├── Lab Manual x.pdf
 │   ├── example1.s
 │   ├── example2.s
@@ -69,7 +67,6 @@ Make sure the following tools are installed before getting started:
 ├── README.md
 ```
 
----
 
 ## 📄 License
 
